@@ -1,0 +1,90 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 2023/12/20, 12:40:54
+    Author     : minor
+*/
+body{
+    background-color: whitesmoke;
+    color:#221f23;
+}
+
+h1{
+    width: 50%;
+    border: solid 3px #fcf5ff;
+    background-color: #ccccff
+}
+img{
+    width:150px;
+}
+#maintitle{
+    background-color: greenyellow;
+}
+.gdesign{
+    width: 95%;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background: #8adbe3;
+}
+
+.gdesign tr:nth-child(2n+1){
+    background: #e9faf9;
+}
+.gdesign th{
+    padding: 10px;
+    border: solid 1px #ffffff;
+    background: #778ca3;
+    color: #ffffff;
+}
+.gdesign td{
+    padding: 10px;
+    border: solid 1px #ffffff;
+}
+#pix_header{
+    width: 100%;
+}
+input{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #5989cf;
+    background: #ccccff;    
+    border-bottom: solid 6px #aac5de;
+    border-radius: 9px;
+}
+.button{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #5989cf;
+    background: #ccccff;    
+    border-bottom: solid 6px #aac5de;
+    border-radius: 9px;
+}
+.result_view{
+}
+
+.map{
+    padding: 0.5em 1em;
+    align-content:center;
+}
+.infowindow{
+    padding: .5em;
+    
+}
+.btn{
+    border-radius: 5px;
+    background-color: skyblue;
+    padding: 10px;
+    text-decoration:none;
+    color: black;
+}
+.btn_back{
+    border: 3px;
+    border-radius: 5px;
+    background-color: gainsboro;
+    padding: 10px;
+    text-decoration:none;
+    color: black;
+}
